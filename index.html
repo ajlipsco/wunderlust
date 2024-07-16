@@ -6,166 +6,255 @@
     <title>Wunderlust Travel</title>
 </head>
 <body>
-    Wunderlust Travel 
-    (logo.png)
-    Let Wunderlust Travel help you plan the trip of your dreams!
+    <header>
+      <h1>Wunderlust Travel</h1>
+      <a class="skip-link" href="main">Skip to content</a>
+
+     <!---Not sure if this is the correct way, especially with the sizes attribute🤔-->
+      <img srcset="images/logo-S.png 320w, images/logo-M.png  780w, images/logo-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="logo-S.png" alt="Wunderlust Travel icon">
+
+      <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
+    </header>
+
+    <!-- ....................... -->
+    <nav>
+      <ul>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Inspirations</a></li>
+        <li><a href="#">Special</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main id="main">
+      <section>
+        <h2>Majorca</h2>
+        <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
+
+     <!---Not sure if this is the correct way, especially with the sizes attribute🤔-->
+        <img srcset="images/majorca-waves-S.png 320w, images/majorca-waves-M.png  780w, images/majorca-waves-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/majorca-waves-S.png" alt="Ocean waves in Majorca">
+ 
+        <img srcset="images/majorca-beach-S.png 320w, images/majorca-beach-M.png  780w, images/majorca-beach-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/majorca-beach-S.png" alt="Beach in Majorca">
+
+        <img srcset="images/majorca-cove-S.png 320w, images/majorca-cove-M.png  780w, images/majorca-cove-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/majorca-cove-S.png" alt="A Majoran cove">
+
     
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Destinations
-    Inspirations
-    Special
-    Contact Us
-    
-    Majorca
-    Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.
-    
-    majorca-waves.png
-    majorca-beach.png
-    majorca-cove.png
-    
-    
-    Plan Your Trip
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    How to Get there
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2 -7h-4l-2 2h-3l2 -4l-2 -4h3l2 2h4l-2 -7h3z" />
-    </svg>
-    
-    (href=”#”) (title=”Search for flights”)
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <polyline points="9 6 15 12 9 18" />
-    </svg>
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Places to Stay
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
-      <circle cx="7" cy="10" r="1" />
-    </svg>
-    
-    (href=”#”) (title=”Search for Hotels”)
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <polyline points="9 6 15 12 9 18" />
-    </svg>
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Things to do
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sailboat" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
-      <path d="M4 18l-1 -3h18l-1 3" />
-      <path d="M11 12h7l-7 -9v9" />
-      <line x1="8" y1="7" x2="6" y2="12" />
-    </svg>
-    
-    (href=”#”) (title=”Search for Activities”)
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <polyline points="9 6 15 12 9 18" />
-    </svg>
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Where to Eat
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
-    </svg>
-    
-    (href=”#”) (title=”Search for Restaurants”) 
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <polyline points="9 6 15 12 9 18" />
-    </svg>
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    
-    
-    Testimonials
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Miranda Blake
-    miranda-blake.png
-    Traveling From: London, England
-    “I traveled here for business, but my stay was extended. Now it is my home.”
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Max Winter
-    max-winter.png
-    Traveling From: Berlin, Germany
-    “Great escape from my reality. Beautiful sunsets, wonderful people, great beer. ”
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Inés Villegoes
-    ines-villegoes.png
-    Traveling From: Barcelona, Spain
-    “A very safe environment for all travelers.”
-    
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Carmen Lorenzo
-    carmen-lorenzo.png
-    Traveling From: Madrid, Spain
-    “Live, laugh, love-- everything you need in Majorca.”
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    
-    
-    About Your Destination
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Size
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-2" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M17 3l4 4l-14 14l-4 -4z" />
-      <path d="M16 7l-1.5 -1.5" />
-      <path d="M13 10l-1.5 -1.5" />
-      <path d="M10 13l-1.5 -1.5" />
-      <path d="M7 16l-1.5 -1.5" />
-    </svg>
-    
-    Size: 1,405 miles squared
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Elevation
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-top-bar" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <line x1="12" y1="21" x2="12" y2="3" />
-      <path d="M15 6l-3 -3l-3 3" />
-      <line x1="9" y1="21" x2="15" y2="21" />
-    </svg>
-    
-    Elevation: 4,741 feet
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Location
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <circle cx="12" cy="11" r="3" />
-      <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-    </svg>
-    Location: Mediterranean 
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    Population
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <circle cx="9" cy="7" r="4" />
-      <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-      <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
-    </svg>
-    
-    Population: 923,608
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    
-    
-    Contact Us
-    First Name (Enter first name)
-    Last Name (Enter last name)
-    
-    Contact Method (Email, Text, Phone)
-    Email Address (Enter Email)
-    Phone Number (Enter telephone number)
-    
-    Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
-    Travel Time (Fall, Winter, Spring, Summer, Flexible)
-    
-    
-    
-    Copyright 2021 Wunderlust
-    Privacy Statement
-    Terms of Service
+        <h3>Plan Your Trip</h3>
+      <!-- ....................... -->
+        <h4>How to Get there</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2 -7h-4l-2 2h-3l2 -4l-2 -4h3l2 2h4l-2 -7h3z" />
+        </svg>
+
+        <a href="#">Search for flights
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="9 6 15 12 9 18" />
+        </svg></a>
+        <!-- ....................... -->
+        <h4>Places to Stay</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+          <circle cx="7" cy="10" r="1" />
+        </svg>
+        
+        <a href="#">Search for Hotels
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="9 6 15 12 9 18" />
+        </svg></a>
+       <!-- ....................... -->
+        <h4>Things to do</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sailboat" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
+          <path d="M4 18l-1 -3h18l-1 3" />
+          <path d="M11 12h7l-7 -9v9" />
+          <line x1="8" y1="7" x2="6" y2="12" />
+        </svg>
+        
+        <a href="#">Search for Activities
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="9 6 15 12 9 18" />
+        </svg></a>
+        <!-- ....................... -->
+        <h4>Where to Eat</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+        </svg>
+        
+        <a href="#">Search for Restaurants
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="9 6 15 12 9 18" />
+        </svg></a>
+      <!-- ....................... -->
+      </section> 
+        
+      <section>
+        <h3>Testimonials</h3>
+      <!-- ....................... -->
+
+        <h4>Miranda Blake</h4>
+        <!---Not sure if I'm headed in the right direction with adding the different image sizes.-->
+        <img srcset="images/miranda-blake-S.png 320w, images/miranda-blake-M.png  780w, images/miranda-blake-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/miranda-blake-S.png" alt="Woman with blonde hair and sunglasses.">
+
+        <small>Traveling From: London, England</small>
+        <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
+
+      <!-- ....................... -->
+        <h4>Max Winter</h4>
+
+        <img srcset="images/max-winter-S.png 320w, images/max-winter-M.png  780w, images/max-winter-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/max-winter-S.png" alt="A man with brown hair wearing a brown shirt.">
+        
+        <small>Traveling From: Berlin, Germany</small>
+        <blockquote>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer. ”</blockquote>
+
+      <!-- ....................... -->
+
+        <h4>Inés Villegoes</h4>
+
+        <img srcset="images/ines-villegoes-S.png 320w, images/ines-villegoes-M.png  780w, images/ines-villegoes-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/ines-villegoes-S.png" alt="Woman with brown hair wearing a blue vest.">
+
+        <small>Traveling From: Barcelona, Spain</small>
+        <blockquote>“A very safe environment for all travelers.”</blockquote>
+        
+      <!-- ....................... -->
+
+        <h4>Carmen Lorenzo</h4>
+  
+        <img srcset="images/carmen-lorenzo-S.png 320w, images/carmen-lorenzo-M.png  780w, images/carmen-lorenzo-L.png  1024w" sizes="(min-width: 280px) 100vw, (min-width:640px) 50vw" src="images/carmen-lorenzo-S.png" alt="Woman with brown hair wearing a red shirt.">
+
+        <small>Traveling From: Madrid, Spain</small>
+        <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
+
+      <!-- ....................... -->
+      </section>  
+        
+      <section>
+        <h3>About Your Destination</h3>
+        <!-- ....................... -->
+
+        <h4>Size</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-2" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M17 3l4 4l-14 14l-4 -4z" />
+          <path d="M16 7l-1.5 -1.5" />
+          <path d="M13 10l-1.5 -1.5" />
+          <path d="M10 13l-1.5 -1.5" />
+          <path d="M7 16l-1.5 -1.5" />
+        </svg>
+        
+        <p>Size: 1,405 miles squared</p>
+        <!-- ....................... -->
+
+        <h4>Elevation</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-top-bar" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <line x1="12" y1="21" x2="12" y2="3" />
+          <path d="M15 6l-3 -3l-3 3" />
+          <line x1="9" y1="21" x2="15" y2="21" />
+        </svg>
+        
+        <p>Elevation: 4,741 feet</p>
+        <!-- ....................... -->
+
+        <h4>Location</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="12" cy="11" r="3" />
+          <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg>
+        <p>Location: Mediterranean</p> 
+        <!-- ....................... -->
+
+        <h4>Population</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="9" cy="7" r="4" />
+          <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+        </svg>
+        
+        <p>Population: 923,608</p>
+        <!-- ....................... -->
+
+      </section>
       
+      <form>
+        <h3>Contact Us</h3>
+
+        <!--Type-->
+        <label for="firstName">First Name</label>
+        <input id="firstName" name="firstName" type="text" required placeholder="Enter first name">
+
+        <label for="lastName">Last Name</label>
+        <input id="lastName" name="lastName" type="text" required placeholder="Enter last name"> 
+
+        <!--Radio-->
+        <fieldset> 
+        <legend>Contact Method</legend>
+
+        <label for="email.pref">Email</label>
+        <input id="email.pref" name="radio" type="radio">
+         
+         <input id="text.pref" name="radio" type="radio">
+         <label for="text.pref">Text</label>
+
+         <input id="phone.pref" name="radio" type="radio">
+         <label for="phone.pref">Phone</label>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="text" required placeholder="Enter Email">
+
+       <!--Type-->
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel" required placeholder="Enter telephone number">
+        </fieldset>
+
+        <!--Spinner-->
+        <!--Fix this-->
+        <label for="destination">Destination</label> 
+        <select id="destination" name="select" multiple required>
+          <optgroup label="Destination">
+            <option value="1">Barcelona</option>
+            <option value="2">Granada</option>
+            <option value="3">Ibiza</option>
+            <option value="4">Madrid</option>
+            <option value="5">Majorca</option>
+            <option value="6">Seville</option>
+            <option value="7">Tenerife</option>
+            <option value="8">Valencia</option>
+          </optgroup>
+        </select>
+
+        <!--Spinner-->
+        <!--Fix this-->
+        <label for="travelTime">Travel Time</label>
+        <select id="travelTime" name="select" multiple required>
+          <optgroup label="Travel Time">
+            <option value="1">Fall</option>
+            <option value="2">Winter</option>
+            <option value="3">Spring</option>
+            <option value="4">Summer</option>
+            <option value="5">Flexible</option>
+          </optgroup>
+        </select>
+
+        <!--Added Submit Button-->
+        <input type="submit" name="submit">
+      </form>
+  </main>
+    
+  <footer>
+    <small>Copyright 2021 Wunderlust</small>
+    <a href="#">Privacy Statement</a>
+    <a href="#">Terms of Service</a>
+  </footer>  
 </body>
 </html>
